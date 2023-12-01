@@ -1,0 +1,59 @@
+
+.create-account-container {
+    margin-top: -50px;
+    position: relative;
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background: rgb(76, 99, 126) url('../images/bg2.png') center/cover ;  /* Replace with the path to your background image */
+  }
+  
+  .create-account-box {
+    background: rgba(0, 0, 0, 0.4); 
+    width: 400px; /* Set the width of the square */
+    height: 450px; /* Set the height of the square */
+    margin: auto; /* Center the square horizontally */
+    margin-top: -30px; 
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+  }
+  .password-toggle1 {
+    position: absolute;
+    top: 62%;
+    right: 90px;
+    transform: translateY(-50%);
+    width: 20px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    background-image: url('../images/eye.png'); /* Add the path to your icon */
+    background-size: cover;
+    cursor: pointer;
+}
+.password-toggle2 {
+    position: absolute;
+    top: 77%;
+    right: 90px;
+    transform: translateY(-50%);
+    width: 20px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    background-image: url('../images/eye.png'); /* Add the path to your icon */
+    background-size: cover;
+    cursor: pointer;
+}
+.have-acc {
+    margin-top: -55px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif; 
+    font-size: 14px;
+    font-weight: lighter;
+}
+.have-acc:hover {
+    color: rgb(3, 3, 87);
+ }
+ body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Add this line to prevent scrolling */
+}

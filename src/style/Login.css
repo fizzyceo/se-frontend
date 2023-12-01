@@ -1,0 +1,128 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.background-image {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(76, 99, 126) url('../images/bg2.png') center/cover ; 
+    z-index: -1; /* Place it behind other elements */
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.4); 
+    width: 400px; /* Set the width of the square */
+    height: 270px; /* Set the height of the square */
+    margin: auto; /* Center the square horizontally */
+    margin-top: -30px; 
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+input {
+    width: 300px; /* Full width of the container */
+    height: 40px; /* Adjust the height as needed */
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #7A8A9D; 
+    color: white;
+    display: block;
+    padding-left: 17px;
+    outline: none;
+    transition: box-shadow 0.3s; 
+}
+
+input::placeholder {
+    color: white;
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px;
+}
+
+input:focus {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.password-toggle {
+    position: absolute;
+    top: 49%;
+    right: 90px;
+    transform: translateY(-50%);
+    width: 20px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    background-image: url('../images/eye.png'); /* Add the path to your icon */
+    background-size: cover;
+    cursor: pointer;
+}
+
+.forgot-password {
+    margin-top: -13px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif; 
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.login-button {
+    background: #7A8A9D; 
+    color: white;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif; /* Set the font to Inter */
+    font-size: 18px; 
+}
+
+.create-account-button {
+    background:#7A8A9D; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 80px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif; /* Set the font to Inter */
+    font-size: 18px;
+}
+
+.website-name {
+    color: white; /* Set the color to white */
+    font-size: 60px; /* Adjust the font size as needed */
+    margin-top: 50px;
+    text-align: center; /* Adjust the top margin as needed */
+}
+
+.login-button:hover {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+}
+
+.create-account-button:hover {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+}
+
+.forgot-password:hover {
+   color: black;
+}

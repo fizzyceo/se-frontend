@@ -1,0 +1,43 @@
+.persons-profile-container{
+    display: flex;
+}
+.profile-main{
+    margin-left: 146px;
+    width: 27em;
+    height: 36em;
+    background-color: #AFB8C4;
+    border-radius: 10px;
+}
+
+.photopro{
+    width: 145px;
+    border-radius: 64px;
+}
+
+.profile-details-list{
+    display: flex;
+}
+
+.request-button{
+    border: 2px solid #4b637e;
+    background-color: #4b637e;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    /* width: 77px; */
+    /* height: 24px; */
+    margin-left: 9px;
+  }
+
+  .request-button1{
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #4b637e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    /* width: 77px; */
+    /* height: 24px; */
+    margin-left: 10px;
+  }

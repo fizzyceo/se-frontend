@@ -1,0 +1,41 @@
+.Nav-ver{
+    background-color: #4b637e;
+    display: flex;
+    padding-bottom: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0 15px 15px 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 25px;
+}
+
+.fsociety{
+    position: absolute;
+  left: 5px;
+}
+.feed{
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.post{
+    margin-top: 5em;
+    cursor: pointer;
+}
+
+
+.Logout{
+    margin-top: 20em;
+    cursor: pointer;
+}
+
+.chat{
+    cursor: pointer;
+}

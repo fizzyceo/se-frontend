@@ -1,0 +1,19 @@
+.dfelx{
+    background-color: #f0f0f0;
+    display: flex;
+}
+.wdiv{
+    width: 1470px;
+}
+
+
+.ligne{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 44px;
+    top: 137px;
+    left: 61px;
+    background-color: #fff;
+    border-radius: 10px 0px 0px 10px;
+}   

@@ -1,0 +1,67 @@
+.chat_body {
+  min-height: 500px;
+  position: relative;
+}
+
+.my_message_structure {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2;
+  justify-content: end;
+}
+.their_message_structure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2;
+  justify-content: start;
+}
+
+.my_message {
+  background: greenyellow;
+  padding: 0px 8px;
+  border-radius: 10%;
+}
+.their_message {
+  background: rgb(214, 215, 212);
+  padding: 0px 8px;
+  border-radius: 10%;
+}
+
+.messages {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  overflow-y: scroll;
+}
+
+.message_input {
+  border-radius: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 85%;
+}
+
+.sent_message_button {
+  border-radius: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 20%;
+  background: greenyellow;
+}
+.input_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.add_friend_button {
+  background: rgb(167, 167, 167);
+  padding: 3px 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,75 @@
+/* Friends.css */
+
+.friends-interface {
+    display: flex;
+    flex-direction: column;
+  padding-left: 143px;
+  }
+  
+  /* .friend-request, */
+  .friend,
+  .blocked-user {
+    display: flex;
+    border: 1px solid black; /* Black border for each section */
+  }
+  
+  .friend-request-container,
+  .friends-container,
+  .blocked-users-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .friend-request,
+  .friend,
+  .blocked-user {
+   margin-right: 10px;
+  }
+
+  .eliot{
+    width: 180px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 6px 6px 0px 0px;
+  }
+  
+  .friend-request{
+    background-color: #fff;
+    border-radius: 6px;
+  }
+
+  .divbut{
+    margin-top: 7px;
+    margin-bottom: 20px;
+  }
+
+  .request-button{
+    border: 2px solid #4b637e;
+    background-color: #4b637e;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 77px;
+    height: 24px;
+    margin-left: 9px;
+  }
+
+  .request-button1{
+    border: 2px solid #AFB8C4;
+    background-color: #AFB8C4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 77px;
+    height: 24px;
+    margin-left: 10px;
+  }
+
+  .spanname{
+    display: block;
+  }
+  
+
+
